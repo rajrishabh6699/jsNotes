@@ -19,3 +19,19 @@ JavaScript variables can hold many data types:
 
 ### **Strings**
 A JavaScript string is zero or more characters written inside quotes.
+
+### **Numbers**
+JavaScript has only one type of number. Numbers can be written with or without decimals.
+
+### **Objects**
+A JavaScript object has properties associated with it. A property of an object can be explained as a variable that is attached to the object. Object properties are basically the same as ordinary JavaScript variables, except for the attachment to objects.
+
+### **Boolean**
+A JavaScript Boolean represents one of two values: true or false.
+
+### **Null**
+In JavaScript null is "nothing". It is supposed to be something that doesn't exist.
+Unfortunately, in JavaScript, the data type of null is an object.
+
+### **Undefined**
+In JavaScript, a variable without a value, has the value undefined. The type is also undefined.
