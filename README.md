@@ -1,4 +1,4 @@
-JAVASCRIPT HISTORY
+**JAVASCRIPT HISTORY**
 
 JavaScript is everywhere, and for the seventh year in a row, it has been ranked the most commonly used programming language, with 67.8% of developers employing it in 2019. Its ascent to the world’s most popular programming language is synonymous with the rise of the internet itself.
 
