@@ -42,6 +42,6 @@ A JavaScript function is executed when "something" invokes it (calls it).
 
 ```javascript
 function demoFunc() {
-  console.log("Hello World"):
+  console.log("Hello World");
 }
 ```
