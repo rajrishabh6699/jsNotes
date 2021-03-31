@@ -35,3 +35,13 @@ Unfortunately, in JavaScript, the data type of null is an object.
 
 ### **Undefined**
 In JavaScript, a variable without a value, has the value undefined. The type is also undefined.
+
+# **FUNCTIONS IN JS**
+A JavaScript function is a block of code designed to perform a particular task.
+A JavaScript function is executed when "something" invokes it (calls it).
+
+```javascript
+function demoFunc() {
+  console.log("Hello World"):
+}
+```
