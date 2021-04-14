@@ -209,12 +209,16 @@ The solution to this problem of Callback hell is Promises.
 * In order to catch error in promise we chain a .catch().
 * If we have multiple promises sequentially placed by .then() chaining we dont have to put explicit .catch() for each of them, only a single .catch() in the end would do. But in this case all the others after the breakpoint will get rejected. For resolving this problem, we use promise.allSettled()
 * Promise.all() assumes that all of them go successfully and if we want to catch the error we would have to specify the catch block.
+* Promise.race() also takes multiple promises and returns the first promise which gets rendered (others are also rendered when they get completed).
 
 *Promises are great but syntax is again similar to the callbacks used earlier. We are still inside one level of callback.*
 
 **Async/Await is a new syntax for neat looking code.**
 The functions that returns promises still stay exactly the same way, nothing changes in promise generating fucntions, its all in where we actually call the code where Async/Await comes in handy.
 An async function is a function declared with the async keyword, and the await keyword is permitted within them. The async and await keywords enable asynchronous, promise-based behavior to be written in a cleaner style, avoiding the need to explicitly configure promise chains.
+* Await is only valid in Async functions.
+* We use try{} catch{} for error handling with Async/Await
+
 ```
 function resolveAfter2Seconds() {
   return new Promise(resolve => {
