@@ -212,6 +212,9 @@ The solution to this problem of Callback hell is Promises.
 
 *Promises are great but syntax is again similar to the callbacks used earlier. We are still inside one level of callback.*
 
+**Async/Await is a new syntax for neat looking code.**
+The functions that returns promises still stay exactly the same way, nothing changes in promise generating fucntions, its all in where we actually call the code where Async/Await comes in handy.
+
 
 
 
