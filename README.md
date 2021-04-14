@@ -196,8 +196,11 @@ array.reduce(function(total, currentValue, currentIndex, arr), initialValue)
 ```
 
 # **Advanced Flow Control**
-* 
+* JS is asynchronous.
 * Different languages are there which are multithreaded, but JS is single threaded i.e. only one thing can only be run at a time.
+* If we want to do one thing after another, we must nest the callbacks inside each other (this is called Callback Hell), because they all depend upon the previous callbacks in order to maintain the order.
+
+The solution to this problem of Callback hell is Promises.
 
 
 
