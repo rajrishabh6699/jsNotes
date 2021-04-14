@@ -74,7 +74,7 @@ document.getElementById("demo").innerHTML = "Hello World!";
 </body>
 </html>
 ```
-In the example above, ### getElementById is a method, while innerHTML is a property.
+In the example above, getElementById is a method, while innerHTML is a property.
 The innerHTML property can be used to get or change any HTML element, including <html>
 and <body>.
   
@@ -117,7 +117,9 @@ Let’s say we have 3 nested elements FORM > DIV > P with a handler on each of t
   </div>
 </form>
 ```
+
 A click on the inner <p> first runs onclick:
+  
 * On that <p>
 * Then on the outer <div>
 * Then on the outer <form>
