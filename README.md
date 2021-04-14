@@ -195,5 +195,10 @@ The return value of the function is stored in an accumulator (result/total).
 array.reduce(function(total, currentValue, currentIndex, arr), initialValue)
 ```
 
+# **Advanced Flow Control**
+* 
+* Different languages are there which are multithreaded, but JS is single threaded i.e. only one thing can only be run at a time.
+
+
 
 
