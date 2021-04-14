@@ -118,11 +118,10 @@ Let’s say we have 3 nested elements FORM > DIV > P with a handler on each of t
 </form>
 ```
 
-A click on the inner `<p>` first runs onclick:
-  
-* On that <p>
-* Then on the outer <div>
-* Then on the outer <form>
+A click on the inner `<p>` first runs onclick: 
+* On that `<p>`
+* Then on the outer `<div>`
+* Then on the outer `<form>`
 * And so on upwards till the document object
 
 ### **Capturing**
