@@ -135,4 +135,39 @@ The standard DOM Events describes 3 phases of event propagation:
 ###### **For more information visit** 
 https://javascript.info/bubbling-and-capturing 
 
+# **Getting Loopy**
+Loops offer a quick and easy way to do something repeatedly.
+```
+for (let step = 0; step < 5; step++) {
+  // Runs 5 times, with values of step 0 through 4.
+  console.log('Walking east one step');
+}
+```
+
+### **For Loop**
+A for loop repeats until a specified condition evaluates to false. The JavaScript for loop is similar to the Java and C for loop.
+A for statement looks as follows:
+```
+for ([initialExpression]; [conditionExpression]; [incrementExpression])
+  statement
+```
+### **For In Loop**
+The for...in statement iterates a specified variable over all the enumerable properties of an object. For each distinct property, JavaScript executes the specified statements.
+
+### **For Of Loop**
+The for...of statement creates a loop Iterating over iterable objects (including Array, Map, Set, arguments object and so on), invoking a custom iteration hook with statements to be executed for the value of each distinct property.
+
+### **While Loop**
+A while statement executes its statements as long as a specified condition evaluates to true. A while statement looks as follows:
+```
+while (condition)
+  statement
+```
+If the condition becomes false, statement within the loop stops executing and control passes to the statement following the loop.
+
+The condition test occurs before statement in the loop is executed. If the condition returns true, statement is executed and the condition is tested again. If the condition returns false, execution stops, and control is passed to the statement following while.
+
+To execute multiple statements, use a block statement ({ ... }) to group those statements.
+
+
 
