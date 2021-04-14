@@ -169,5 +169,31 @@ The condition test occurs before statement in the loop is executed. If the condi
 
 To execute multiple statements, use a block statement ({ ... }) to group those statements.
 
+### **For Each**
+The forEach() method executes a provided function once for each array element.
+```
+const array1 = ['a', 'b', 'c'];
+
+array1.forEach(element => console.log(element));
+
+// expected output: "a"
+// expected output: "b"
+// expected output: "c"
+```
+### **Map**
+The map() method creates a new array with the results of calling a function for every array element.
+The map() method calls the provided function once for each element in an array, in order.
+```
+array.map(function(currentValue, index, arr), thisValue)
+```
+
+### **Reduce**
+The reduce() method reduces the array to a single value.
+The reduce() method executes a provided function for each value of the array (from left-to-right).
+The return value of the function is stored in an accumulator (result/total).
+```
+array.reduce(function(total, currentValue, currentIndex, arr), initialValue)
+```
+
 
 
