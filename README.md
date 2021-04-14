@@ -202,6 +202,16 @@ array.reduce(function(total, currentValue, currentIndex, arr), initialValue)
 
 The solution to this problem of Callback hell is Promises.
 
+### **Promises**
+* Whenever we are not getting immediate data return, we can use Promises to get a promise instead, that like eventually after sometime I will get some data back.
+* Promises are made immediately but they are not resolved or rejected immediately.
+* We use .then() to access the resolved value. Whenever we want to perform series of operations we can chain multiple results.
+* In order to catch error in promise we chain a .catch().
+* If we have multiple promises sequentially placed by .then() chaining we dont have to put explicit .catch() for each of them, only a single .catch() in the end would do. But in this case all the others after the breakpoint will get rejected. For resolving this problem, we use promise.allSettled()
+* Promise.all() assumes that all of them go successfully and if we want to catch the error we would have to specify the catch block.
+
+*Promises are great but syntax is again similar to the callbacks used earlier. We are still inside one level of callback.*
+
 
 
 
