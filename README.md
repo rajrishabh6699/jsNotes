@@ -132,6 +132,6 @@ The standard DOM Events describes 3 phases of event propagation:
 * Bubbling phase-the event bubbles up from the element.
 
 ###### **For more information visit** 
-https://javascript.info/bubbling-and-capturing -automatic!
+https://javascript.info/bubbling-and-capturing 
 
 
