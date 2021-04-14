@@ -240,6 +240,32 @@ asyncCall();
 * A Browser API can extend the functionality of a web browser.
 * A Server API can extend the functionality of a web server.
 
+# **CORS**
+Cross-Origin Resource Sharing (CORS) is an HTTP-header based mechanism that allows a server to indicate any other origins (domain, scheme, or port) than its own from which a browser should permit loading of resources. CORS also relies on a mechanism by which browsers make a “preflight” request to the server hosting the cross-origin resource, in order to check that the server will permit the actual request. In that preflight, the browser sends headers that indicate the HTTP method and headers that will be used in the actual request.
+
+# **Modules**
+As our program grows bigger, it may contain many lines of code. Instead of putting everything in a single file, you can use modules to separate codes in separate files as per their functionality. This makes our code organized and easier to maintain.
+Module is a file that contains code to perform a specific task. A module may contain variables, functions, classes etc.
+
+Suppose, a file named greet.js contains the following code:
+
+```
+// exporting a function
+export function greetPerson(name) {
+    return `Hello ${name}`;
+}
+```
+Now, to use the code of greet.js in another file, you can use the following code:
+```
+// importing greetPerson from greet.js file
+import { greetPerson } from './greet.js';
+
+// using greetPerson() defined in greet.js
+let displayName = greetPerson('Jack');
+
+console.log(displayName); // Hello Jack
+```
+
 
 
 
