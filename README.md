@@ -118,19 +118,20 @@ Let’s say we have 3 nested elements FORM > DIV > P with a handler on each of t
 </form>
 ```
 A click on the inner <p> first runs onclick:
-* On that <p>.
-* Then on the outer <div>.
-* Then on the outer <form>.
-* And so on upwards till the document object.
+* On that <p>
+* Then on the outer <div>
+* Then on the outer <form>
+* And so on upwards till the document object
 
 ### **Capturing**
 There’s another phase of event processing called “capturing”. It is rarely used in real code, but sometimes can be useful.
 The standard DOM Events describes 3 phases of event propagation:
 
-* Capturing phase – the event goes down to the element.
-* Target phase – the event reached the target element.
-* Bubbling phase – the event bubbles up from the element.
+* Capturing phase-the event goes down to the element.
+* Target phase-the event reached the target element.
+* Bubbling phase-the event bubbles up from the element.
 
-###### **For more information visit : ** https://javascript.info/bubbling-and-capturing -automatic!
+###### **For more information visit** 
+https://javascript.info/bubbling-and-capturing -automatic!
 
 
